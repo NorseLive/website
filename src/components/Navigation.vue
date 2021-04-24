@@ -5,28 +5,19 @@
 			<ul>
 				<li><router-link :class="{ 'custom-active': isHome }" :to="{ name: 'home' }">Home</router-link></li>
 				<li><router-link :to="{ name: 'registration' }">Create Account</router-link></li>
-				<li><a href="https://wiki.themanaworld.org/index.php/Downloads">Download</a></li>
+				<li><a href="https://store.steampowered.com/app/1180630/Norse/">Download</a></li>
 				<li><router-link :to="{ name: 'about' }">About</router-link></li>
-				<li><a href="https://wiki.themanaworld.org/index.php/FAQ">FAQ</a></li> <!-- we might want to put FAQ under About, or put About on the wiki -->
 				<li><router-link :class="{ 'custom-active': isSupport }" :to="{ name: 'support' }">Support</router-link></li>
-				<li><a href="https://wiki.themanaworld.org/">Wiki</a></li>
-				<li><a href="https://forums.themanaworld.org/">Forums</a></li>
 			</ul>
 		</div>
 		<div class="server">
 			<span>Server Status</span>
 			<ServerStatus class="status"/>
 		</div>
-		<div class="screenshots">
-			<a href="https://wiki.themanaworld.org/index.php/Screenshots" title="Screenshots" aria-label="view screenshots">Screenshots</a>
-		</div>
 		<div>
 			<span>Source Code</span>
 			<ul>
-				<li><a href="https://github.com/themanaworld" aria-label="source code for The Mana World">The Mana World</a></li>
-				<li><a href="https://gitlab.com/evol" aria-label="source code for Evol Online">Evol Online</a></li>
-				<li><a href="https://gitlab.com/manaplus" aria-label="source code for ManaPlus">ManaPlus</a></li>
-				<li><a href="https://github.com/bjorn/tiled" aria-label="source code for Tiled">Tiled</a></li>
+				<li><a href="https://github.com/norselive" aria-label="source code">View our Source</a></li>
 			</ul>
 		</div>
 	</nav>

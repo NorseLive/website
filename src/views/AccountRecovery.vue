@@ -18,7 +18,7 @@
 			<h1>Proceeding without reCAPTCHA</h1>
 			<p>If you would rather not use reCAPTCHA, you may recover your account by contacting us by email.</p>
 			<br>
-			<address>support@themanaworld.org</address>
+			<address>support@norse.live</address>
 		</div>
 
 		<div v-if="step == -4">
@@ -29,7 +29,7 @@
 			<h1>Proceeding without reCAPTCHA</h1>
 			<p>If you would rather not use reCAPTCHA, you may recover your account by contacting us by email.</p>
 			<br>
-			<address>support@themanaworld.org</address>
+			<address>support@norse.live</address>
 		</div>
 
 		<div v-if="step == -1">
@@ -40,7 +40,7 @@
 			<h1>Proceeding without reCAPTCHA</h1>
 			<p>If you would rather not use reCAPTCHA, you may recover your account by contacting us by email.</p>
 			<br>
-			<address>support@themanaworld.org</address>
+			<address>support@norse.live</address>
 		</div>
 
 		<div v-if="step == 1">
@@ -148,7 +148,7 @@
 			<p>The password of account <q>{{user.name}}</q> has been reset.</p>
 
 			<h1>Next steps</h1>
-			<p>To start playing, <a href="https://wiki.themanaworld.org/index.php/Downloads">download ManaPlus</a> and select the server <i>The Mana World</i>.</p>
+			<p>To start playing,  Click the download button and you will be taken to our Steam page.</p>
 		</div>
 
 		<div class="g-recaptcha" id="recaptcha-container"

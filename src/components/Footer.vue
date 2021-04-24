@@ -1,6 +1,6 @@
 <template>
 	<footer class="footer">
-		&copy; 2004&ndash;{{ (new Date()).getFullYear() }} The Mana World
+		&copy; 2021&ndash;{{ (new Date()).getFullYear() }} Norse.Live
 	</footer>
 </template>
 

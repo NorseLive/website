@@ -1,8 +1,8 @@
 <template>
 	<main class="registration">
 		<h1>Account creation</h1>
-		<p>Welcome to The Mana World! With this form you can register for a new game account.</p>
-		<p>Please note that you will also need to download and install <a href="https://wiki.themanaworld.org/index.php/Downloads" target="_blank">ManaPlus</a>, our official game client.</p>
+		<p>Welcome to Norse! With this form you can register for a new game account.</p>
+		<p>Please note that you will also need to download and install <a href="https://store.steampowered.com/app/1180630/Norse/" target="_blank">Norse</a>, from Steam.</p>
 		<br>
 		<div class="specialEvent" v-if="specialEvent" v-html="specialEvent"></div>
 		<button v-if="!step" @click="isRecaptchaAccepted ? start() : step = -2">Begin!</button>
@@ -19,7 +19,7 @@
 			<p>If you would rather not use reCAPTCHA, you may register by contacting us by email.</p>
 			<p>We will create a new account for you and associate it with the email address that you used to contact us.</p>
 			<br>
-			<address>registration@themanaworld.org</address>
+			<address>registration@norse.live</address>
 		</div>
 
 		<div v-if="step == -3">
@@ -31,7 +31,7 @@
 			<p>If you would rather not use reCAPTCHA, you may register by contacting us by email.</p>
 			<p>We will create a new account for you and associate it with the email address that you used to contact us.</p>
 			<br>
-			<address>registration@themanaworld.org</address>
+			<address>registration@norse.live</address>
 		</div>
 
 		<div v-if="step == -1">
@@ -43,7 +43,7 @@
 			<p>If you would rather not use reCAPTCHA, you may register by contacting us by email.</p>
 			<p>We will create a new account for you and associate it with the email address that you used to contact us.</p>
 			<br>
-			<address>registration@themanaworld.org</address>
+			<address>registration@norse.live</address>
 		</div>
 
 		<!-- XXX: do we want to add the game rules here? -->
@@ -124,7 +124,7 @@
 			<p>Your account has been successfully created.</p>
 
 			<h1>Next steps</h1>
-			<p>To start playing, <a href="https://wiki.themanaworld.org/index.php/Downloads">download ManaPlus</a> and select the server <i>The Mana World</i>.</p>
+			<p>To start playing, <a href="https://store.steampowered.com/app/1180630/Norse/">download Norse</a></p>
 		</div>
 
 		<div class="g-recaptcha" id="recaptcha-container"

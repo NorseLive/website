@@ -20,7 +20,7 @@ const redirects = [
 	{
 		path: "/downloads.php",
 		redirect: () => {
-			self.location.href = "https://wiki.themanaworld.org/index.php/Downloads";
+			self.location.href = "https://store.steampowered.com/app/1180630/Norse/";
 		}
 	},
 	{

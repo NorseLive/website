@@ -1,8 +1,5 @@
 <template>
 	<router-link role="banner" :to="{ name: 'home' }" class="logo" title="Go to home page" aria-label="go back to the home page">
-		<span>The </span>Mana World
-		<!--<span>Feel the mana power growing inside you</span>-->
-		<span>A free open source 2D MMORPG in development</span>
 	</router-link>
 </template>
 
@@ -16,7 +13,7 @@
 }
 .logo {
 	/* this is all relative because our mobile site has to be responsive */
-	background: url(../assets/logo.svg) no-repeat left top; /* FIXME: the -small logo is fugly */
+	background: url(../assets/logo.png) no-repeat left top; /* FIXME: the -small logo is fugly */
 	background-size: 12vw 12vw;
 	padding: 2vw 0 0 12vw;
 	font-family: "Albertus TMW", "Arial Black", "Times New Roman", fantasy;
@@ -37,8 +34,8 @@
 }
 @media (min-width: 800px) {
 	.logo {
-		background-image: url(../assets/logo.svg);
-		background-size: 120px 120px;
+		background-image: url(../assets/logo.png);
+		background-size: 331px 120px;
 		padding: 30px 0 0 125px;
 		font-size: 4em;
 		height: 100px;
@@ -66,7 +63,7 @@
 }
 @media (max-width: 300px) {
 	.logo {
-		background-image: url(../assets/logo-extrasmall.svg);
+		background-image: url(../assets/logo.png);
 		background-size: 12vw 12vw;
 		font-weight: bold;
 		text-shadow: none;

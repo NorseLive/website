@@ -77,7 +77,6 @@
 			"page side"
 			"footer footer";
 		& > .content {
-			background: url(assets/page_footer.webp) no-repeat left bottom #E1D6CF;
 			min-width: 890px;
 			padding-bottom: 200px;
 			border-radius: 15px 0 0 15px;
