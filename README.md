@@ -1,4 +1,4 @@
-# themanaworld-website
+# Norse Website
 
 The website of Norse, built with Vue and Vue-Cli. Based on TheManaWorld source.
 
