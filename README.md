@@ -1,6 +1,6 @@
 # themanaworld-website
 
-The website of The Mana World, built with Vue and Vue-Cli.
+The website of Norse, built with Vue and Vue-Cli. Based on TheManaWorld source.
 
 
 ## Project setup
